@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    height: 200%;
+    background-color: rgb(155, 60, 245);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+.container{
+    width: 300px;
+    height: 450px;
+    background-color: beige;
+    flex-direction: column;
+    margin-top: 10%;
+    justify-items: center;
+}
+.titulo{
+    justify-content: center;
+    display: flex;
+}
+
+
+    
