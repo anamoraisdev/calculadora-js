@@ -5,7 +5,7 @@ function calcular(){
     const secundoValor = document.getElementById("valor2")
     const operadores = document.getElementById("operador")
     const button = document.getElementById("calcular")
-    const resultado = document.getElementById("resultado")
+    const saidaResultado = document.getElementById("resultado")
     const op = operadores.value
     const v1 = parseFloat(primeiroValor.value)
     const v2 = parseFloat(secundoValor.value)
@@ -26,7 +26,7 @@ function calcular(){
                 resultado = v1 / v2 
                 break;
         }
-        console.log(resultado)
+        saidaResultado.innerHTML= resultado
 
     }else {
         console.log("Error!")
